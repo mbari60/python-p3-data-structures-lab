@@ -28,7 +28,7 @@ def print_spicy_foods(spicy_foods):
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
     for food in spicy_foods:
-        #checking if the cuisine in the spicy foods matches the cuisine that user inputs 
+        #checking if the cuisine in the spicy foods matches the cuisine that user inputs (the cuser cuisine )
         if food["cuisine"].lower() == cuisine.lower():
             return food
 
